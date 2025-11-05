@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(16, 16, 16);
+  color: white;
+}
+
+/* header */
+header {
+  background-image: url("assets/image-header.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+header nav {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 75px;
+}
+
+nav a img {
+  padding: 20px 15px;
+}
+
+nav a, nav ul li {
+  display: inline-block;
+}
+ nav ul {
+  float: right;
+  text-align: end;
+ }
+
+nav ul li a {
+  font-family: 'Poppins', Arial;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px 15px;
+  color: white;
+}
+
+/* title in header */
+header section {
+  text-align: center;
+  margin: auto;
+}
+
+header section div {
+  width: 45%;
+  margin: 125px auto;
+  text-align: left;
+}
+
+h1 span {
+  font-size: 53px;
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: -35px;
+}
+
+h1 {
+  font-size: 160px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: -15px;
+}
+
+.header-aligne h2 span {
+  font-weight: bold;
+  display: block;
+}
+
+.header-aligne h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* button */
+.btn-align {
+  display: inline;
+}
+
+.btn {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 38px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: all ease 300ms;
+}
+
+.b-align {
+  display: inline-block;
+  margin-top: 45px;
+  margin-bottom: 200px;
+  margin-right: 15px;
+}
+
+.black {
+  color: white;
+  background-color: rgb(16, 16, 16);
+  border: 2px solid rgb(16, 16, 16);
+}
+
+.black:hover {
+  color: rgb(16, 16, 16);
+  background-color: white;
+  border: 2px solid rgb(16, 16, 16);
+}
+
+.white {
+  color: rgb(16, 16, 16);
+  background-color: white;
+  border: 2px solid white;
+}
+
+.white:hover {
+  color: white;
+  background-color: rgb(16, 16, 16);
+  border: 2px solid white;
+}
+
+/* main */
+
+/* section 1 */
+.section1 {
+  width: 70%;
+  margin: auto;
+}
+
+.section1 h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.section1 p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+/* section 2 */
+.section2 img {
+  width: 100%;
+  margin: 50px 0;
+}
+
+/* section 3 */
+.section3 {
+  text-align: center;
+  margin: auto;
+}
+
+.section3 div {
+  width: 55%;
+  margin: auto;
+}
+
+.section3 div h2 {
+  font-size: 36px;
+  padding: 20px 0;
+}
+
+.section3 div ul {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.section3 div ul li {
+  font-size: 28px;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-top-style: dashed;
+  border-color: rgba(255, 255, 255, 0.331);
+}
+
+.section3 div ul li span {
+  font-weight: bold;
+}
+
+/* section 4 */
+.section4 {
+  background-image: url('assets/banniere-logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section4 img {
+  margin: 9% 10px;
+}
+
+/* section 5 */
+/* .section5 {
+  text-align: center;
+  margin: auto;
+}
+
+.section5 div {
+  width: 55%;
+  margin: auto;
+} */
